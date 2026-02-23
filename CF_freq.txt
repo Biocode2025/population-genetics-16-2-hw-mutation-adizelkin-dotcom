@@ -1,0 +1,1 @@
+Generation	Freq_c	Freq_CC	Freq_Cc	Freq_cc
