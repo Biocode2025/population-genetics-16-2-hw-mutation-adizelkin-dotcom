@@ -1,5 +1,5 @@
 q = 0.02
-gen = 10  
+gen = 500  
 
 file = open("CF_freq.txt", "w")
 
@@ -13,7 +13,7 @@ for generation in range(1, gen + 1):
     Cc = 2 * p * q
     cc = q ** 2
 
-    file.write(f"\t{generation}\t\t{q:.5f}\t{CC:.5f}\t{Cc:.5f}\t{cc:.5f}\n")
+    file.write(f"{generation}\t{q:.5f}\t{CC:.5f}\t{Cc:.5f}\t{cc:.5f}\n")
 
     total_survivors = CC + Cc
 
